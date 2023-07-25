@@ -5,8 +5,6 @@
 </template>
 
 <script>
-import { fetchNewsList } from "../api/index.js";
-
 export default {
   created() {
     this.$store.dispatch("FETCH_NEWS");
